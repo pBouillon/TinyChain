@@ -60,7 +60,7 @@ class Block {
                     "%064x", new BigInteger(1, content)
             ) ;
         } catch (NoSuchAlgorithmException e) {
-            // exciting if impossible to use the HASH_ALGORITHM
+            // exiting if impossible to use the HASH_ALGORITHM
             System.err.println("[FAILURE] " + HASH_ALGORITHM + " not supported.") ;
             System.exit(1) ;
         }
